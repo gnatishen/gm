@@ -1,0 +1,28 @@
+<div id="main-nav-bar" class="navbar">
+  <% max_level = Spree::Config[:max_level_in_taxons_menu] || 1 %>
+  <% @taxonomies = Spree::Taxonomy.includes(root: :children) %>
+  <div class="navbar-nav">
+    <nav id="taxonomies" data-hook>
+      <% if @taxonomies && @taxonomies.any? %>
+        <% (@taxonomies || []).each do |taxonomy| %>
+          <% cache [I18n.locale, taxonomy, max_level, @taxon] do %>
+            <%= taxons_tree(taxonomy.root, @taxon, 10) %>
+          <% end %>
+        <% end %>
+      <% end %>
+    </nav>
+</div>
+<div class="navbar-nav">
+    <ul data-hook>
+      <li id="link-to-cart" data-hook>
+        <noscript>
+          <%= link_to Spree.t(:cart), '/cart' %>
+        </noscript>
+        &nbsp;
+      </li>
+      <script>Spree.fetch_cart()</script>
+    </ul>
+  </div>
+</div>
+
+

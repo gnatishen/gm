@@ -10,3 +10,5 @@
 
 //= require_tree .
 //= require spree/frontend/spree_auth
+//= require store/spree_fancy_menu
+

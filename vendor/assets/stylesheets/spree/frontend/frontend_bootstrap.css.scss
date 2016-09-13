@@ -1,0 +1,401 @@
+	@import "bootstrap";
+
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: url('/assets/BebasNeueBold/BebasNeueBold.eot?#iefix') format('embedded-opentype'),  url('/assets/BebasNeueBold/BebasNeueBold.woff') format('woff'), url('/assets/BebasNeueBold/BebasNeueBold.ttf')  format('truetype'), url('/assets/BebasNeueBold/BebasNeueBold.svg#BebasNeueBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container-fluid {
+    padding: 0 10%;
+    font-family: "Roboto Condensed";
+    text-align: center;
+}
+H1, H2, H3, H4 {
+    text-align: left;
+    font-family: 'BebasNeueBold';
+}
+H4 {
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+}
+.page-taxonomy-term .views-row {
+    display: inline-block;
+    vertical-align: top;
+   width: 220px;
+   padding: 20px;
+   text-align: center;
+   position: relative;
+}
+a {
+     color: #232323;
+}
+a:hover {
+    background: none !important;
+    color:  #e74c3c;
+}
+.view-taxonomy-term {
+   text-align: center;
+}
+.icon-bar {
+   background-color: #000 !important;
+}
+.main-menu {
+   padding: 10px;
+}
+.dropdown-toggle {
+	font-weight: 300;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'BebasNeueBold';
+	transition: all 0.3s ease 0s;
+  padding: 10px;
+}
+
+li.dhtml-menu-open > a {
+    font-style: normal;
+	line-height: 20px;
+	border-bottom: 2px solid #e74c3c !important;
+}
+.navbar-header,
+.navbar-collapse,
+.navbar-toggle
+ {
+	width: 100%;
+}
+.navbar-collapse .navbar-nav {
+	text-align: center;
+}
+#navbar {
+    border-bottom: 2px solid #e74c3c;
+    margin: 0;
+}
+#navbar .block {
+    display: inline-block;
+    vertical-align: middle;
+}
+#block-block-3 {
+    color: #fff;
+    text-align: left;
+    font-family: 'BebasNeueBold';
+    font-size: 22px;
+    padding: 5px 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#block-menu-menu-secondmenu {
+	display: inline-block;
+}
+.top-line-block {
+   display: inline-block;
+   vertical-align: middle;
+}
+.flexslider {
+    border: 0;
+}
+.flex-control-nav {
+    bottom: 20px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.flex-control-paging li a {
+    border: 2px solid #fff;
+}
+.flex-control-paging li a {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    border-radius: 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3) inset;
+    cursor: pointer;
+    display: block;
+    height: 21px;
+    text-indent: -9999px;
+    width: 21px;
+}
+#block-menu-menu-secondmenu li {
+    display: inline-block;
+}
+.top {
+    background-color: #1A1A1A;
+    color: #fff;
+}
+.top .block {
+   display: inline-block;
+}
+.top-links a,
+.top a {
+    color: #fff;
+    font-size: 0.96em;
+}
+.top-links a:hover,
+.top a:hover {
+    background: none !important;
+    color:  #e74c3c;
+}
+.top .logo {
+    float: left;
+    padding: 7px 0;
+}
+#block-menu-menu-secondmenu li a {
+    display: block;
+    padding: 5px 15px;
+    position: relative;
+}
+.region-top-header {
+    text-align: right;
+    float: right;
+}
+.navbar-brand {
+    line-height: 50px;
+    font-family: 'BebasNeueBold';
+    font-size: 3em !important;
+    font-weight: 500;    
+    
+    float: none;
+}
+.region-top-header {
+    text-align: right;
+}
+.region-top-header .block {
+
+}
+.well {
+    background: none !important;
+    border: none;
+}
+.well .block-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.top-links {
+    text-align: right;
+    background-color: #000;
+}
+.top .table > thead > tr > th, 
+.top .table > tbody > tr > th, 
+.top .table > tfoot > tr > th, 
+.top .table > thead > tr > td, 
+.top .table > tbody > tr > td, 
+.top .table > tfoot > tr > td {
+    border-top: none;
+    line-height: 0;
+    padding: 0;
+    vertical-align: top;
+}
+.breadcrumb {
+    background: none;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 50px;
+    text-align: left;
+}
+.breadcrumb .last {
+    color:  #e74c3c;
+}
+.dropdown-menu > li > a:hover {
+    color: #e74c3c;
+}
+.view-taxonomy-term .views-row,
+#block-views-block-from-bikers-block .views-row,
+#block-views-block-ekip-block .views-row,
+#block-views-block-rash-block .views-row,
+#block-views-block-for-biker-block .views-row {
+   display: inline-block;
+   width: 220px;
+   padding: 5px 20px;
+   margin: 10px;
+   text-align: center;
+   vertical-align: top;
+}
+.view-taxonomy-term .views-row:hover,
+#block-views-block-from-bikers-block .views-row:hover,
+#block-views-block-ekip-block .views-row:hover,
+#block-views-block-for-biker-block .views-row:hover,
+#block-views-block-rash-block .views-row:hover {
+    -webkit-transform: scale(1.1);.
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#block-views-block-rash-block .field-name-title,
+#block-views-block-for-biker-block .field-name-title {
+   height: 60px;
+}
+.field-name-title a {
+   color: #232323;
+}
+.commerce-product-sku-label {
+   font-size: 12px;
+   font-weight: normal;
+}
+.commerce-product-sku {
+   font-weight: bold;
+}
+.field-name-commerce-price {
+   font-size: 24px;
+   color: #e74c3c;
+}
+h4 {
+   font-size: 14px;
+}
+.btn-success {
+   background-color: #333333;
+   border: 4px double #fff;
+   text-transform: uppercase;
+   font-size: 14px;
+}
+.btn-success:hover {
+   background-color: #000;
+   border: 4px double #fff;
+}
+.commerce-product-extra-field-title,
+.field-name-title {
+    height: 50px;
+    text-align: center;
+}
+.field-name-title H4 {
+    text-align: center;
+}
+.pager--infinite-scroll {
+    text-align: right;
+}
+.footer .block-title {
+   font-family: 'BebasNeueBold';
+   font-size: 20px;
+   font-weight: bold;
+   color: #000;
+}
+
+.footer .block {
+   display: inline-block;
+   text-align: left;
+   padding: 20px 30px;
+   vertical-align: top;
+   color: #666666;
+}
+
+.footer .block li a {
+    padding: 0;
+    color: #666666;
+}
+.footer .block a:hover {
+    color: #e74c3c;
+}
+.block:first-child h2.block-title, .page-header {
+    margin-top: 21px;
+    color: #000;
+}
+.btn {
+    font-family: 'BebasNeueBold';
+    font-size: 18px;
+}
+#mail-form {
+    padding: 20px;
+    color: #fff;
+    background-color: #000;
+    margin: 30px 0;
+    border-bottom: 2px solid #e74c3c;
+    border-top: 2px solid #e74c3c;
+}
+#mail-form p {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'BebasNeueBold';
+    font-size: 20px;
+}
+#mail-form .simplenews-subscribe {
+    display: inline-block;
+    vertical-align: middle;
+}
+#mail-form .simplenews-subscribe .form-item-mail {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    padding: 0px 30px;
+}
+#mail-form .simplenews-subscribe .form-item-mail input {h: 200px;
+}
+#mail-form .simplenews-subscribe .form-submit {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 20px;
+    margin: 10px;
+    background-color: #e74c3c;
+}
+#block-system-user-menu {
+    float: left;
+}
+#block-system-user-menu UL LI {
+    display: inline-block;
+}
+#block-user-login {
+    float: left;
+    padding: 10px;
+}
+#block-block-3 H4, 
+#block-block-3 H3
+{
+    float: left;
+    padding: 0 5px;
+}
+#block-block-3 H4 {
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+#block-block-3 H3 {
+    margin: 0;
+}
+.commerce-wishlist.btn {
+    background: none;
+    border: none;
+    font-size: 12px;
+    color: #000;
+    font-family: "Roboto Condensed";
+    padding: 0;
+    margin: 0;
+}
+.form-item-attributes-field-oil-l {
+    text-align: center;
+}
+.form-item-attributes-field-oil-l .form-item {
+    display: inline-block;
+    padding: 5px;
+}
+#block-commerce-popup-cart-commerce-popup-cart {
+    position: fixed;
+    right: 0;
+    top: 39px;
+    z-index: 99;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #e74c3c;
+}
+#taxonomies ul > li {
+	list-style: none;
+	display: inline-block;
+}
+.top-level:hover > .dropdown-menu {
+display: block;
+margin: 0px;
+}
+.top-level {
+  position: relative;
+}
+.navbar-nav {
+  display: inline-block;
+  float: none;
+  height: 30px;
+  vertical-align: bottom;
+}
+.navbar {
+    border: 1px solid transparent;
+    padding-top: 25px;
+    position: relative;
+}
+.active {
+  color:  #e74c3c !important;
+  background: none !important;
+}

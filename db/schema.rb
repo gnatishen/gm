@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160901080355) do
+ActiveRecord::Schema.define(version: 20160912093660) do
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string   "slug",                      null: false
@@ -140,6 +140,15 @@ ActiveRecord::Schema.define(version: 20160901080355) do
     t.integer  "stock_location_id"
     t.datetime "created_at",        null: false
     t.datetime "updated_at",        null: false
+  end
+
+  create_table "spree_fancy_menu_items", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "index"
+    t.integer  "depth"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "taxon_id"
   end
 
   create_table "spree_gateways", force: :cascade do |t|
@@ -747,6 +756,35 @@ ActiveRecord::Schema.define(version: 20160901080355) do
     t.string   "payment_type"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "spree_slide_locations", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "spree_slide_slide_locations", force: :cascade do |t|
+    t.integer "slide_id"
+    t.integer "slide_location_id"
+  end
+
+  add_index "spree_slide_slide_locations", ["slide_id"], name: "index_spree_slide_slide_locations_on_slide_id"
+  add_index "spree_slide_slide_locations", ["slide_location_id"], name: "index_spree_slide_slide_locations_on_slide_location_id"
+
+  create_table "spree_slides", force: :cascade do |t|
+    t.string   "name"
+    t.text     "body"
+    t.string   "link_url"
+    t.boolean  "published"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "position",           default: 0, null: false
+    t.integer  "product_id"
   end
 
   create_table "spree_state_changes", force: :cascade do |t|
