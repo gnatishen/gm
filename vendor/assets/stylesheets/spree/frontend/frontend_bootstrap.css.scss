@@ -190,7 +190,7 @@ li.dhtml-menu-open > a {
     padding: 15px 50px;
     text-align: left;
 }
-.breadcrumb .last {
+#breadcrumbs .active  a {
     color:  #e74c3c;
 }
 .dropdown-menu > li > a:hover {
@@ -398,4 +398,12 @@ margin: 0px;
 .active {
   color:  #e74c3c !important;
   background: none !important;
+}
+
+.glyphicon-chevron-left::before {
+    content: "";
+}
+
+.glyphicon-chevron-right::before {
+    content: "";
 }

@@ -48,5 +48,15 @@ gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
 gem 'spree_i18n', :github => 'spree/spree_i18n'
 gem 'spree_fancy_menu', :git => 'https://github.com/openjaf/spree_fancy_menu.git'
+
+
+
+#import export xls
+gem 'datashift'
+gem 'datashift_spree'
+
+#slider spree
+gem 'spree_slider', github: 'spree-contrib/spree_slider'
+
 end
 

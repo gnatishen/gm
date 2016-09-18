@@ -14,7 +14,7 @@ module ApplicationHelper
                   css_class = 'top-level'
                   css_active = 'active'
                 else
-                  css_class = ''
+                  css_class = 'top-level'
                   css_active = ''
                 end
       					content_tag :li, class: css_class do

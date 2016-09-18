@@ -28,4 +28,8 @@
   <div class="top-header top-line-block">
       <%= render :partial => 'spree/shared/main_nav_bar' %>
   </div>
+  <% if current_page?(root_url) %>
+    <% slides = Spree::Slide.published.location("header") %>
+    <%= render partial: 'spree/shared/slider', locals: { slider: slides } %>
+  <% end %>
 </div>
