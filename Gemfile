@@ -58,5 +58,7 @@ gem 'datashift_spree'
 #slider spree
 gem 'spree_slider', github: 'spree-contrib/spree_slider'
 
+gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency'
+
 end
 

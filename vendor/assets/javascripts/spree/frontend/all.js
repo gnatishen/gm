@@ -12,3 +12,4 @@
 //= require spree/frontend/spree_auth
 //= require store/spree_fancy_menu
 
+//= require spree/frontend/spree_multi_currency

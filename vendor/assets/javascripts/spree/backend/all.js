@@ -10,3 +10,4 @@
 
 //= require_tree .
 //= require admin/spree_fancy_menu
+//= require spree/backend/spree_multi_currency
